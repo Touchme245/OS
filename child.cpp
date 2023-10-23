@@ -1,34 +1,67 @@
 #include <iostream>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <string>
+#include <fcntl.h>
+#include <sstream>
+#include <sys/mman.h>
 
-int main(){
-    //std::cout << "hi i was called and i will work" << '\n';
-    double res;
-    //std::cin >> res;
-    int number;
+int main(int argc, char* argv[]){
+    int size = 4096;
+    int shm_fd = shm_open(argv[1], O_CREAT | O_RDWR, 0777);
+    void* shm_ptr = mmap(nullptr , size, PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0);
+   
     
+    int* arr = (int*)shm_ptr;
+
+    int res=1;
+    int number;
+    int i = 0;
     int newCommand = 1;
+
+
     while(std::cin.peek() != EOF){
+        if (newCommand){
+            std::cin>>res;
+            newCommand = 0;
+        }
         if (std::cin.peek() == '\n'){
             std::cin.ignore();
-            std::cout << res << '\n';
-            //std::cout << "first" << '\n';
+            while(1){
+                if (arr[0] == 1){
+                    arr[1] = res;
+                    arr[0] = 0;
+                    break;
+                }
+            }
             newCommand = 1;
 
         }
-        if (newCommand){
-            std::cin>>res;
-            //std::cout << "second" << '\n';
-            newCommand = 0;
-        }
+        
         if (!newCommand){
             std::cin >> number;
-            //std::cout << "third" << '\n';
             if (number == 0){
-            std::cout << "Division by 0" << '\n';
-            return 1;
+                while(1){
+                    if (arr[0] == 1){
+                        arr[1] = -1e9;
+                        arr[0] = 0;
+                        break;
+                    }
+                }   
+                break;
             }
-            res /=number;
+            else{
+                res /=number;
+            }
+           
         }
     }
-    //std::cout << res << '\n';
+    while(1){
+        if (arr[0] == 1){
+            arr[0] = 2;
+            break;
+        }
+    }
+    
+
 }
