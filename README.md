@@ -20,8 +20,6 @@ Task
 
 
 
-Build
-g++ child.cpp parent.cpp -o output
+Build g++ child.cpp - o child g++ parent.cpp -o parent
 
-Run
-./output.out
+Run ./parent
