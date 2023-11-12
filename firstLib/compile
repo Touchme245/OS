@@ -1,0 +1,5 @@
+// g++ -o libProst.so -shared -fPIC functions.cpp 
+// nm libProst.so
+// g++ main.cpp -L. -lProst -o output
+//g++ main.cpp -L. -lProst -o output
+//export LD_LIBRARY_PATH=.
