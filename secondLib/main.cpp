@@ -22,7 +22,7 @@ int main(){
         std::cout << "Error with toTernary pointer: " << dlerror() << "\n";
     }
 
-    toBinary(3);
+    //toBinary(3);
     //toTernary(3);
     // std::cout << toBinary(5) << std::endl;
     // std::cout << toTernary(5) << std::endl;
@@ -44,10 +44,14 @@ int main(){
             continue;
         } 
         if(!flag){
-            std::cout <<"Result: " << toBinary(x) << std::endl;
+            char* res = toBinary(x);
+            std::cout <<"Result: " << res << std::endl;
+            delete[] res;
         }
         else {
-            std:: cout << "Result: " << toTernary(x) << std::endl;
+            char* res = toTernary(x);
+            std:: cout << "Result: " << res << std::endl;
+            delete[] res;
         }
         
         
