@@ -11,6 +11,7 @@ char* toBinary(long x){
     for (int i = 0; i < tmp.length(); ++i){
         res[i] = tmp[i];
     }
+    res[tmp.lenght()] = '\0';
     return res;
     
 }
@@ -24,8 +25,9 @@ char* toTernary(long x){
 
     char* res = new char[tmp.length()];
     for (int i = 0; i < tmp.length(); ++i){
-        res[i] = tmp[i];
+        res[i] = tmp[i]; 
     }
+    res[tmp.lenght()] = '\0';
     return res;
     
 }
