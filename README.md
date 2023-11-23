@@ -17,7 +17,7 @@ export LD_LIBRARY_PATH=.
 
 Build: secondlib
 g++ -o libTer.so -shared -fPIC Ter.cpp
-g++ -o libBin.so -shared -fPIC Bin.cpp\n
+g++ -o libBin.so -shared -fPIC Bin.cpp
 export LD_LIBRARY_PATH=.
 g++ main.cpp  -o output
 
