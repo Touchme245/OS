@@ -16,6 +16,8 @@ g++ main.cpp -L. -lProst -o output
 export LD_LIBRARY_PATH=.
 
 Build: secondlib
-g++ -o libTranslation.so -shared -fPIC translations.cpp 
-g++ main.cpp -L. -lTranslation -o output
+g++ -o libTer.so -shared -fPIC Ter.cpp
+g++ -o libBin.so -shared -fPIC Bin.cpp\n
 export LD_LIBRARY_PATH=.
+g++ main.cpp  -o output
+
