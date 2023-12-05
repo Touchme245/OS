@@ -158,41 +158,63 @@ void inOrderTraversal(Node* root) {
     }
 }
 
-Node* replacingNode(Node* node) {
-    Node* current = node;
-    while (current && current->left != NULL) {
-        current = current->left;
-    }
-    return current;
-}
+// Node* replacingNode(Node* node) {
+//     Node* current = node;
+//     while (current && current->left != NULL) {
+//         current = current->left;
+//     }
+//     return current;
+// }
 
 
-Node* deleteNode(Node* root, int data) {
-    if (root == NULL) {
-        return root;
+// Node* deleteNode(Node* root, int data) {
+//     if (root == NULL) {
+//         return root;
+//     }
+//     if (data < root->data) {
+//         root->left = deleteNode(root->left, data);
+//     }
+//     else if (data > root->data) {
+//         root->right = deleteNode(root->right, data);
+//     }
+//     else {
+//         if (root->left == NULL) {
+//             Node* temp = root->right;
+//             delete root;
+//             return temp;
+//         }
+//         else if (root->right == NULL) {
+//             Node* temp = root->left;
+//             delete root;
+//             return temp;
+//         }
+//         Node* temp = replacingNode(root->right);
+//         root->data = temp->data;
+//         root->right = deleteNode(root->right, temp->data);
+//     }
+//     return root;
+// }
+
+void deleteNode(Node* root, int data){
+    if (root == NULL){
+        return;
     }
-    if (data < root->data) {
-        root->left = deleteNode(root->left, data);
-    }
-    else if (data > root->data) {
-        root->right = deleteNode(root->right, data);
-    }
-    else {
-        if (root->left == NULL) {
-            Node* temp = root->right;
-            delete root;
-            return temp;
+    if (root->left != NULL){
+        if (root->left->data == data){
+            root->left = NULL;
+            return;
         }
-        else if (root->right == NULL) {
-            Node* temp = root->left;
-            delete root;
-            return temp;
-        }
-        Node* temp = replacingNode(root->right);
-        root->data = temp->data;
-        root->right = deleteNode(root->right, temp->data);
     }
-    return root;
+    if (root->right != NULL){
+        if (root->right->data == data){
+            root->right = NULL;
+            return;
+        }
+    }
+    
+    deleteNode(root->left,data);
+    deleteNode(root->right, data);
+
 }
 
 

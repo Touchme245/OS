@@ -8,7 +8,6 @@
 int main(){
     Node* root_network = createNode(1);
     root_network->data = 1;
-    std::vector<zmq::socket_t> branches;
     zmq::context_t context; 
     int parent_id = 1;
     // создание мастер ноды
@@ -24,12 +23,12 @@ int main(){
             }
         }
 
-        branches.emplace_back(context, ZMQ_REQ); 
-        branches[branches.size() - 1].setsockopt(ZMQ_SNDTIMEO, 5000);
-        bind(branches[branches.size() - 1], parent_id);
-        send_message(branches[branches.size() - 1], std::to_string(parent_id) + "pid");
+        zmq::socket_t branch(context, ZMQ_REQ); 
+        branch.setsockopt(ZMQ_SNDTIMEO, 5000);
+        bind(branch, parent_id);
+        send_message(branch, std::to_string(parent_id) + "pid");
                 
-        std::string reply = receive_message(branches[branches.size() - 1]);
+        std::string reply = receive_message(branch);
         std::cout << reply << std::endl;
        
 
@@ -46,9 +45,9 @@ int main(){
 
             else {
                 
-                send_message(branches[0], std::to_string(parent_id) + "create " + std::to_string(node_id));
+                send_message(branch, std::to_string(parent_id) + "create " + std::to_string(node_id));
 
-                std::string reply = receive_message(branches[0]);
+                std::string reply = receive_message(branch);
                 std::cout << reply << std::endl;
                 insertNode(root_network, node_id);
             }
@@ -60,8 +59,8 @@ int main(){
             std::getline(std::cin, numbers);
 
 
-            send_message(branches[0], std::to_string(dest_id) + "exec " + numbers);
-            std::string reply = receive_message(branches[0]);
+            send_message(branch, std::to_string(dest_id) + "exec " + numbers);
+            std::string reply = receive_message(branch);
             std::cout << reply << std::endl;
             
         }
@@ -69,20 +68,18 @@ int main(){
         else if (cmd == "kill") {
             int id;
             std::cin >> id;
-            //inOrderTraversal(root_network);
-            //std::cout << "\n" << find(root_network, id) << " " << id << "\n";
             int t = find(root_network, id);
             if (t == -1) {
                 std::cout << "ERROR: incorrect node id" << std::endl;
             }
             else {
-                send_message(branches[0], std::to_string(id) + "kill");
+                send_message(branch, std::to_string(id) + " kill");
                 
-                std::string reply = receive_message(branches[0]);
+                std::string reply = receive_message(branch);
                 std::cout << reply << std::endl;
-                // network.erase(id);
-                if (parent_id == 1) {
-                    unbind(branches[0], id);
+                deleteNode(root_network,id);
+                if (id == parent_id) {
+                    unbind(branch, id);
                     exit(0);
                 }
             }
@@ -92,9 +89,9 @@ int main(){
             std::set<int> available_nodes;
             
                 
-                send_message(branches[0], std::to_string(parent_id) + " heartbeat");
+                send_message(branch, std::to_string(parent_id) + " heartbeat");
                 
-                std::string received_message = receive_message(branches[0]);
+                std::string received_message = receive_message(branch);
                 std::istringstream reply(received_message);
                 int node;
                 while(reply >> node) {
@@ -116,14 +113,14 @@ int main(){
         else if (cmd == "exit") {
            
             int first_node_id = 1;
-            send_message(branches[0], std::to_string(first_node_id) + "kill");
+            send_message(branch, std::to_string(first_node_id) + "kill");
                 
-            std::string reply = receive_message(branches[0]);
+            std::string reply = receive_message(branch);
             if (reply != "OK") {
                 std::cout << reply << std::endl;
             }
             else {
-                unbind(branches[0], first_node_id);
+                unbind(branch, first_node_id);
             }
             
             exit(0);

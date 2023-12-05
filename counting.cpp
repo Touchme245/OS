@@ -6,23 +6,12 @@
 #include "zmq_functions.h"
  
 int main(int argc, char* argv[]) {
-    if (argc != 2 && argc != 3) {
+    if (argc != 2) {
         throw std::runtime_error("Wrong args for counting node");
     }
     int cur_id = std::atoi(argv[1]);
     int left_id = -1;
     int right_id = -1;
-    if (argc == 3) {
-        if (cur_id > std::atoi(argv[2])){
-            left_id = std::atoi(argv[2]);
-        }
-        else{
-             right_id = std::atoi(argv[2]);
-        }
-        
-       
-    }
-
 
     zmq::context_t context;
     zmq::socket_t parent_socket(context, ZMQ_REP); 
@@ -58,51 +47,55 @@ int main(int argc, char* argv[]) {
             else if (cmd == "create") {
                 int new_child_id;
                 request >> new_child_id;
+                
+                if (cur_id > new_child_id && left_id != -1){
+                    send_message(left_socket, std::to_string(left_id) + "create " + std::to_string(new_child_id));
+                    std::string msg = receive_message(left_socket);
+                    if (msg == "OK") {
+                        send_message(parent_socket, "OK");
+                    }
+                    continue;
+                }
+
+                else if (cur_id < new_child_id && right_id != -1){
+                    send_message(right_socket, std::to_string(right_id) + "create " + std::to_string(new_child_id));
+                    std::string msg = receive_message(right_socket);
+                    if (msg == "OK") {
+                        send_message(parent_socket, "OK");
+                    }
+                    continue;
+                }
                 int flag = 0;
-                if (left_id != -1 && cur_id > new_child_id) {
-                    unbind(left_socket, left_id);
-                    
-                }
-
-                if (right_id != -1 && cur_id < new_child_id) {
-                    unbind(right_socket, right_id);
-                    
-                }
-
                 if (cur_id > new_child_id ){
-                    bind(left_socket, new_child_id);
+                    left_id = new_child_id;
+                    bind(left_socket, left_id);
                     flag = 1;
                 }
 
-                if (cur_id < new_child_id){
-                    bind(right_socket, new_child_id);
+                else if (cur_id < new_child_id){
+                    right_id = new_child_id;
+                    bind(right_socket, right_id);
                 }
-
                 
                 pid_t pid = fork();
                 if (pid < 0) {
                     perror("Can't create new process");
                     return -1;
                 }
-                if (pid == 0 && flag) {
-                    execl("./counting", "./counting", std::to_string(new_child_id).c_str(), std::to_string(left_id).c_str(),  NULL);
-                    perror("Can't execute new process");
-                    return -2;
-                }
                 if (pid == 0) {
-                    execl("./counting", "./counting", std::to_string(new_child_id).c_str(), std::to_string(right_id).c_str(),  NULL);
+                    execl("./counting", "./counting", std::to_string(new_child_id).c_str(),  NULL);
                     perror("Can't execute new process");
                     return -2;
                 }
                 if (flag){
-                    send_message(left_socket, std::to_string(new_child_id) + "pid");
-                    left_id = new_child_id;
-                    send_message(parent_socket, receive_message(left_socket));
+                    send_message(left_socket, std::to_string(left_id) + "pid");
+                    std::string res = receive_message(left_socket);
+                    send_message(parent_socket, "OK");
                 }
                 else{
-                    send_message(right_socket, std::to_string(new_child_id) + "pid");
-                    right_id = new_child_id;
-                    send_message(parent_socket, receive_message(right_socket));
+                    send_message(right_socket, std::to_string(right_id) + "pid");
+                    std::string res = receive_message(right_socket);
+                    send_message(parent_socket, "OK");
                 }
                 
             }
@@ -136,8 +129,10 @@ int main(int argc, char* argv[]) {
                     if (msg == "OK") {
                         send_message(parent_socket, "OK");
                     }
-                    unbind(left_socket, left_id);
-                    // disconnect(parent_socket, cur_id);
+                  //unbind(left_socket, left_id);
+                  // disconnect(parent_socket, left_id);
+                   disconnect(parent_socket,cur_id);
+
                     
                 }
                 if (right_id != -1) {
@@ -146,13 +141,17 @@ int main(int argc, char* argv[]) {
                     if (msg == "OK") {
                         send_message(parent_socket, "OK");
                     }
-                        unbind(right_socket, right_id);
+                       //unbind(right_socket, right_id);
+                      // disconnect(parent_socket, right_id);
+                       disconnect(parent_socket, cur_id);
+                   
                 
                 }
-                std::cout << "HERE BLUAT\n";
                 send_message(parent_socket, "OK");
-                //unbind(parent_socket, cur_id);
-                break;
+                unbind(parent_socket, cur_id);
+                disconnect(parent_socket, cur_id);
+               
+                exit(0);
                 
             }
 
@@ -161,6 +160,7 @@ int main(int argc, char* argv[]) {
             send_message(right_socket, message);
             send_message(parent_socket, receive_message(right_socket));
             if (right_id == dest_id && cmd == "kill") {
+                unbind(right_socket, right_id);
                 right_id = -1;
             }
         }
@@ -169,13 +169,14 @@ int main(int argc, char* argv[]) {
             send_message(left_socket, message);
             send_message(parent_socket, receive_message(left_socket));
             if (left_id == dest_id && cmd == "kill") {
+                unbind(left_socket, left_id);
                 left_id = -1;
             }
         }
         else {
-            send_message(parent_socket, "Error: node is unavailable");
+            send_message(parent_socket, "Error: node is unavailable [cont]");
         }
     }
 
-    return 0;
+   return 0;
 }
