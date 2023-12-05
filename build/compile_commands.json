@@ -1,0 +1,1267 @@
+[
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/cc -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu11 -g -o CMakeFiles/libzmq-static.dir/src/tweetnacl.c.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/tweetnacl.c",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/tweetnacl.c"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/address.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/address.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/address.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/client.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/client.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/client.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/clock.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/clock.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/clock.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/ctx.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/ctx.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/ctx.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/curve_client.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/curve_client.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/curve_client.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/curve_server.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/curve_server.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/curve_server.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/dealer.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/dealer.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/dealer.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/devpoll.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/devpoll.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/devpoll.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/dgram.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/dgram.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/dgram.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/dist.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/dist.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/dist.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/epoll.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/epoll.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/epoll.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/err.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/err.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/err.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/fq.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/fq.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/fq.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/io_object.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/io_object.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/io_object.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/io_thread.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/io_thread.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/io_thread.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/ip.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/ip.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/ip.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/ipc_address.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/ipc_address.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/ipc_address.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/ipc_connecter.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/ipc_connecter.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/ipc_connecter.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/ipc_listener.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/ipc_listener.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/ipc_listener.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/kqueue.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/kqueue.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/kqueue.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/lb.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/lb.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/lb.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/mailbox.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/mailbox.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/mailbox.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/mailbox_safe.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/mailbox_safe.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/mailbox_safe.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/mechanism.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/mechanism.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/mechanism.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/metadata.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/metadata.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/metadata.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/msg.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/msg.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/msg.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/mtrie.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/mtrie.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/mtrie.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/object.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/object.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/object.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/options.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/options.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/options.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/own.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/own.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/own.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/null_mechanism.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/null_mechanism.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/null_mechanism.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/pair.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/pair.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/pair.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/pgm_receiver.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/pgm_receiver.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/pgm_receiver.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/pgm_sender.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/pgm_sender.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/pgm_sender.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/pgm_socket.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/pgm_socket.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/pgm_socket.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/pipe.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/pipe.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/pipe.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/plain_client.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/plain_client.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/plain_client.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/plain_server.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/plain_server.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/plain_server.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/poll.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/poll.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/poll.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/poller_base.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/poller_base.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/poller_base.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/pollset.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/pollset.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/pollset.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/precompiled.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/precompiled.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/precompiled.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/proxy.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/proxy.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/proxy.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/pub.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/pub.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/pub.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/pull.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/pull.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/pull.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/push.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/push.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/push.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/random.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/random.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/random.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/raw_encoder.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/raw_encoder.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/raw_encoder.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/raw_decoder.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/raw_decoder.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/raw_decoder.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/reaper.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/reaper.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/reaper.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/rep.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/rep.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/rep.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/req.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/req.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/req.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/router.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/router.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/router.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/select.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/select.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/select.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/server.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/server.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/server.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/session_base.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/session_base.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/session_base.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/signaler.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/signaler.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/signaler.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/socket_base.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/socket_base.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/socket_base.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/socks.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/socks.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/socks.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/socks_connecter.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/socks_connecter.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/socks_connecter.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/stream.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/stream.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/stream.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/stream_engine.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/stream_engine.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/stream_engine.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/sub.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/sub.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/sub.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/tcp.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/tcp.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/tcp.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/tcp_address.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/tcp_address.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/tcp_address.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/tcp_connecter.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/tcp_connecter.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/tcp_connecter.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/tcp_listener.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/tcp_listener.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/tcp_listener.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/thread.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/thread.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/thread.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/trie.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/trie.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/trie.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/v1_decoder.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/v1_decoder.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/v1_decoder.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/v1_encoder.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/v1_encoder.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/v1_encoder.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/v2_decoder.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/v2_decoder.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/v2_decoder.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/v2_encoder.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/v2_encoder.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/v2_encoder.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/xpub.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/xpub.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/xpub.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/xsub.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/xsub.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/xsub.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/zmq.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/zmq.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/zmq.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/zmq_utils.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/zmq_utils.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/zmq_utils.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/decoder_allocators.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/decoder_allocators.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/decoder_allocators.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/socket_poller.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/socket_poller.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/socket_poller.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/timers.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/timers.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/timers.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/radio.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/radio.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/radio.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/dish.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/dish.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/dish.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/udp_engine.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/udp_engine.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/udp_engine.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/udp_address.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/udp_address.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/udp_address.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/scatter.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/scatter.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/scatter.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/libzmq-static.dir/src/gather.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/gather.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/gather.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu11 -g -fPIC -o CMakeFiles/libzmq.dir/src/tweetnacl.c.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/tweetnacl.c",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/tweetnacl.c"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/address.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/address.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/address.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/client.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/client.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/client.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/clock.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/clock.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/clock.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/ctx.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/ctx.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/ctx.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/curve_client.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/curve_client.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/curve_client.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/curve_server.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/curve_server.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/curve_server.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/dealer.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/dealer.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/dealer.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/devpoll.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/devpoll.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/devpoll.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/dgram.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/dgram.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/dgram.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/dist.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/dist.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/dist.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/epoll.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/epoll.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/epoll.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/err.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/err.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/err.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/fq.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/fq.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/fq.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/io_object.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/io_object.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/io_object.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/io_thread.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/io_thread.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/io_thread.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/ip.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/ip.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/ip.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/ipc_address.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/ipc_address.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/ipc_address.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/ipc_connecter.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/ipc_connecter.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/ipc_connecter.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/ipc_listener.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/ipc_listener.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/ipc_listener.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/kqueue.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/kqueue.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/kqueue.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/lb.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/lb.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/lb.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/mailbox.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/mailbox.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/mailbox.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/mailbox_safe.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/mailbox_safe.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/mailbox_safe.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/mechanism.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/mechanism.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/mechanism.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/metadata.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/metadata.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/metadata.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/msg.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/msg.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/msg.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/mtrie.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/mtrie.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/mtrie.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/object.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/object.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/object.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/options.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/options.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/options.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/own.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/own.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/own.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/null_mechanism.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/null_mechanism.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/null_mechanism.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/pair.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/pair.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/pair.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/pgm_receiver.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/pgm_receiver.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/pgm_receiver.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/pgm_sender.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/pgm_sender.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/pgm_sender.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/pgm_socket.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/pgm_socket.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/pgm_socket.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/pipe.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/pipe.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/pipe.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/plain_client.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/plain_client.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/plain_client.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/plain_server.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/plain_server.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/plain_server.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/poll.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/poll.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/poll.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/poller_base.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/poller_base.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/poller_base.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/pollset.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/pollset.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/pollset.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/precompiled.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/precompiled.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/precompiled.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/proxy.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/proxy.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/proxy.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/pub.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/pub.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/pub.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/pull.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/pull.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/pull.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/push.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/push.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/push.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/random.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/random.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/random.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/raw_encoder.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/raw_encoder.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/raw_encoder.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/raw_decoder.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/raw_decoder.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/raw_decoder.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/reaper.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/reaper.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/reaper.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/rep.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/rep.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/rep.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/req.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/req.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/req.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/router.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/router.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/router.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/select.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/select.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/select.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/server.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/server.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/server.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/session_base.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/session_base.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/session_base.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/signaler.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/signaler.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/signaler.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/socket_base.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/socket_base.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/socket_base.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/socks.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/socks.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/socks.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/socks_connecter.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/socks_connecter.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/socks_connecter.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/stream.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/stream.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/stream.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/stream_engine.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/stream_engine.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/stream_engine.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/sub.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/sub.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/sub.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/tcp.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/tcp.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/tcp.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/tcp_address.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/tcp_address.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/tcp_address.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/tcp_connecter.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/tcp_connecter.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/tcp_connecter.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/tcp_listener.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/tcp_listener.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/tcp_listener.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/thread.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/thread.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/thread.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/trie.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/trie.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/trie.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/v1_decoder.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/v1_decoder.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/v1_decoder.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/v1_encoder.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/v1_encoder.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/v1_encoder.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/v2_decoder.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/v2_decoder.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/v2_decoder.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/v2_encoder.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/v2_encoder.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/v2_encoder.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/xpub.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/xpub.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/xpub.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/xsub.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/xsub.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/xsub.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/zmq.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/zmq.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/zmq.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/zmq_utils.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/zmq_utils.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/zmq_utils.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/decoder_allocators.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/decoder_allocators.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/decoder_allocators.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/socket_poller.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/socket_poller.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/socket_poller.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/timers.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/timers.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/timers.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/radio.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/radio.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/radio.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/dish.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/dish.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/dish.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/udp_engine.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/udp_engine.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/udp_engine.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/udp_address.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/udp_address.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/udp_address.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/scatter.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/scatter.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/scatter.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build",
+  "command": "/usr/bin/c++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -fPIC -o CMakeFiles/libzmq.dir/src/gather.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/src/gather.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/src/gather.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_abstract_ipc.dir/test_abstract_ipc.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_abstract_ipc.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_abstract_ipc.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_fork.dir/test_fork.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_fork.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_fork.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_zmq_poll_fd.dir/test_zmq_poll_fd.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_zmq_poll_fd.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_zmq_poll_fd.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_use_fd_tcp.dir/test_use_fd_tcp.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_use_fd_tcp.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_use_fd_tcp.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_stream_exceeds_buffer.dir/test_stream_exceeds_buffer.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_stream_exceeds_buffer.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_stream_exceeds_buffer.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_proxy_terminate.dir/test_proxy_terminate.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_proxy_terminate.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_proxy_terminate.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_proxy_single_socket.dir/test_proxy_single_socket.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_proxy_single_socket.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_proxy_single_socket.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_monitor.dir/test_monitor.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_monitor.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_monitor.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_sodium.dir/test_sodium.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_sodium.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_sodium.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_bind_after_connect_tcp.dir/test_bind_after_connect_tcp.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_bind_after_connect_tcp.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_bind_after_connect_tcp.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_base85.dir/test_base85.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_base85.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_base85.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_ctx_destroy.dir/test_ctx_destroy.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_ctx_destroy.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_ctx_destroy.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_unbind_wildcard.dir/test_unbind_wildcard.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_unbind_wildcard.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_unbind_wildcard.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_spec_router.dir/test_spec_router.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_spec_router.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_spec_router.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_atomics.dir/test_atomics.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_atomics.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_atomics.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_stream_empty.dir/test_stream_empty.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_stream_empty.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_stream_empty.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_probe_router.dir/test_probe_router.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_probe_router.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_probe_router.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_reqrep_tcp.dir/test_reqrep_tcp.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_reqrep_tcp.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_reqrep_tcp.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_reqrep_ipc.dir/test_reqrep_ipc.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_reqrep_ipc.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_reqrep_ipc.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_router_mandatory.dir/test_router_mandatory.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_router_mandatory.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_router_mandatory.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_proxy.dir/test_proxy.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_proxy.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_proxy.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_stream_disconnect.dir/test_stream_disconnect.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_stream_disconnect.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_stream_disconnect.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_diffserv.dir/test_diffserv.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_diffserv.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_diffserv.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_immediate.dir/test_immediate.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_immediate.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_immediate.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_xpub_nodrop.dir/test_xpub_nodrop.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_xpub_nodrop.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_xpub_nodrop.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_connect_resolve.dir/test_connect_resolve.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_connect_resolve.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_connect_resolve.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_unbind_inproc.dir/test_unbind_inproc.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_unbind_inproc.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_unbind_inproc.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_ancillaries.dir/test_ancillaries.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_ancillaries.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_ancillaries.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_system.dir/test_system.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_system.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_system.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_pair_inproc.dir/test_pair_inproc.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_pair_inproc.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_pair_inproc.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_msg_ffn.dir/test_msg_ffn.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_msg_ffn.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_msg_ffn.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_sub_forward.dir/test_sub_forward.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_sub_forward.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_sub_forward.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_xpub_manual.dir/test_xpub_manual.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_xpub_manual.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_xpub_manual.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_reqrep_device.dir/test_reqrep_device.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_reqrep_device.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_reqrep_device.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_pub_invert_matching.dir/test_pub_invert_matching.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_pub_invert_matching.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_pub_invert_matching.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_pair_tcp.dir/test_pair_tcp.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_pair_tcp.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_pair_tcp.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_stream.dir/test_stream.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_stream.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_stream.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_spec_dealer.dir/test_spec_dealer.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_spec_dealer.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_spec_dealer.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_ctx_options.dir/test_ctx_options.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_ctx_options.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_ctx_options.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_hwm.dir/test_hwm.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_hwm.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_hwm.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_reqrep_inproc.dir/test_reqrep_inproc.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_reqrep_inproc.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_reqrep_inproc.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_conflate.dir/test_conflate.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_conflate.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_conflate.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_use_fd_ipc.dir/test_use_fd_ipc.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_use_fd_ipc.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_use_fd_ipc.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_security_plain.dir/test_security_plain.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_security_plain.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_security_plain.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_connect_rid.dir/test_connect_rid.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_connect_rid.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_connect_rid.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_ipc_wildcard.dir/test_ipc_wildcard.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_ipc_wildcard.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_ipc_wildcard.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_invalid_rep.dir/test_invalid_rep.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_invalid_rep.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_invalid_rep.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_security_null.dir/test_security_null.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_security_null.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_security_null.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_security_curve.dir/test_security_curve.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_security_curve.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_security_curve.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_getsockopt_memset.dir/test_getsockopt_memset.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_getsockopt_memset.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_getsockopt_memset.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_iov.dir/test_iov.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_iov.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_iov.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_router_mandatory_hwm.dir/test_router_mandatory_hwm.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_router_mandatory_hwm.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_router_mandatory_hwm.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_req_relaxed.dir/test_req_relaxed.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_req_relaxed.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_req_relaxed.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_last_endpoint.dir/test_last_endpoint.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_last_endpoint.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_last_endpoint.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_spec_rep.dir/test_spec_rep.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_spec_rep.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_spec_rep.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_filter_ipc.dir/test_filter_ipc.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_filter_ipc.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_filter_ipc.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_pair_ipc.dir/test_pair_ipc.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_pair_ipc.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_pair_ipc.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_router_handover.dir/test_router_handover.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_router_handover.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_router_handover.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_spec_pushpull.dir/test_spec_pushpull.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_spec_pushpull.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_spec_pushpull.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_xpub_welcome_msg.dir/test_xpub_welcome_msg.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_xpub_welcome_msg.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_xpub_welcome_msg.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_timeo.dir/test_timeo.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_timeo.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_timeo.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_term_endpoint.dir/test_term_endpoint.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_term_endpoint.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_term_endpoint.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_req_correlate.dir/test_req_correlate.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_req_correlate.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_req_correlate.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_inproc_connect.dir/test_inproc_connect.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_inproc_connect.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_inproc_connect.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_bind_src_address.dir/test_bind_src_address.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_bind_src_address.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_bind_src_address.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_spec_req.dir/test_spec_req.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_spec_req.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_spec_req.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_issue_566.dir/test_issue_566.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_issue_566.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_issue_566.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_shutdown_stress.dir/test_shutdown_stress.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_shutdown_stress.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_shutdown_stress.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_msg_flags.dir/test_msg_flags.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_msg_flags.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_msg_flags.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_many_sockets.dir/test_many_sockets.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_many_sockets.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_many_sockets.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_setsockopt.dir/test_setsockopt.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_setsockopt.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_setsockopt.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_disconnect_inproc.dir/test_disconnect_inproc.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_disconnect_inproc.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_disconnect_inproc.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_sockopt_hwm.dir/test_sockopt_hwm.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_sockopt_hwm.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_sockopt_hwm.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_hwm_pubsub.dir/test_hwm_pubsub.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_hwm_pubsub.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_hwm_pubsub.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_heartbeats.dir/test_heartbeats.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_heartbeats.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_heartbeats.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_capabilities.dir/test_capabilities.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_capabilities.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_capabilities.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_metadata.dir/test_metadata.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_metadata.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_metadata.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_srcfd.dir/test_srcfd.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_srcfd.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_srcfd.cpp"
+},
+{
+  "directory": "/com.docker.devenvironments.code/build/tests",
+  "command": "/usr/bin/c++ -DZMQ_CUSTOM_PLATFORM_HPP -D_GNU_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/com.docker.devenvironments.code/zeromq-4.2.1/include -I/com.docker.devenvironments.code/build -I/com.docker.devenvironments.code/zeromq-4.2.1/../include  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -o CMakeFiles/test_stream_timeout.dir/test_stream_timeout.cpp.o -c /com.docker.devenvironments.code/zeromq-4.2.1/tests/test_stream_timeout.cpp",
+  "file": "/com.docker.devenvironments.code/zeromq-4.2.1/tests/test_stream_timeout.cpp"
+}
+]

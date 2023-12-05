@@ -1,0 +1,306 @@
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d2a39/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d2a39.dir/build.make CMakeFiles/cmTC_d2a39.dir/build
+gmake[1]: Entering directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2a39.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp/sys/event.h -std=gnu11 -DCHECK_FUNCTION_EXISTS=kqueue -o CMakeFiles/cmTC_d2a39.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d2a39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2a39.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -DCHECK_FUNCTION_EXISTS=kqueue -rdynamic CMakeFiles/cmTC_d2a39.dir/CheckFunctionExists.c.o -o cmTC_d2a39 
+/usr/bin/ld: CMakeFiles/cmTC_d2a39.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `kqueue'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_d2a39.dir/build.make:106: cmTC_d2a39] Error 1
+gmake[1]: Leaving directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_d2a39/fast] Error 2
+
+
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_860bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_860bc.dir/build.make CMakeFiles/cmTC_860bc.dir/build
+gmake[1]: Entering directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_860bc.dir/ZMQ_HAVE_WINDOWS.c.o
+/usr/bin/cc   -std=gnu11  -o CMakeFiles/cmTC_860bc.dir/ZMQ_HAVE_WINDOWS.c.o -c /com.docker.devenvironments.code/build/CMakeFiles/CheckIncludeFiles/ZMQ_HAVE_WINDOWS.c
+/com.docker.devenvironments.code/build/CMakeFiles/CheckIncludeFiles/ZMQ_HAVE_WINDOWS.c:2:10: fatal error: windows.h: No such file or directory
+    2 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_860bc.dir/build.make:85: CMakeFiles/cmTC_860bc.dir/ZMQ_HAVE_WINDOWS.c.o] Error 1
+gmake[1]: Leaving directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_860bc/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if the function fopen exists in the ws2_32 failed with the following output:
+Change Dir: /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bff34/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bff34.dir/build.make CMakeFiles/cmTC_bff34.dir/build
+gmake[1]: Entering directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bff34.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=fopen -o CMakeFiles/cmTC_bff34.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bff34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bff34.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -DCHECK_FUNCTION_EXISTS=fopen -rdynamic CMakeFiles/cmTC_bff34.dir/CheckFunctionExists.c.o -o cmTC_bff34  -lws2_32 
+/usr/bin/ld: cannot find -lws2_32
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_bff34.dir/build.make:106: cmTC_bff34] Error 1
+gmake[1]: Leaving directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_bff34/fast] Error 2
+
+
+
+Determining if the function fopen exists in the ws2 failed with the following output:
+Change Dir: /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ab21a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ab21a.dir/build.make CMakeFiles/cmTC_ab21a.dir/build
+gmake[1]: Entering directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab21a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=fopen -o CMakeFiles/cmTC_ab21a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ab21a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab21a.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -DCHECK_FUNCTION_EXISTS=fopen -rdynamic CMakeFiles/cmTC_ab21a.dir/CheckFunctionExists.c.o -o cmTC_ab21a  -lws2 
+/usr/bin/ld: cannot find -lws2
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_ab21a.dir/build.make:106: cmTC_ab21a] Error 1
+gmake[1]: Leaving directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_ab21a/fast] Error 2
+
+
+
+Determining if the function fopen exists in the rpcrt4 failed with the following output:
+Change Dir: /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bae8f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bae8f.dir/build.make CMakeFiles/cmTC_bae8f.dir/build
+gmake[1]: Entering directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bae8f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=fopen -o CMakeFiles/cmTC_bae8f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bae8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bae8f.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -DCHECK_FUNCTION_EXISTS=fopen -rdynamic CMakeFiles/cmTC_bae8f.dir/CheckFunctionExists.c.o -o cmTC_bae8f  -lrpcrt4 
+/usr/bin/ld: cannot find -lrpcrt4
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_bae8f.dir/build.make:106: cmTC_bae8f] Error 1
+gmake[1]: Leaving directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_bae8f/fast] Error 2
+
+
+
+Determining if the function fopen exists in the iphlpapi failed with the following output:
+Change Dir: /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b25a3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b25a3.dir/build.make CMakeFiles/cmTC_b25a3.dir/build
+gmake[1]: Entering directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b25a3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=fopen -o CMakeFiles/cmTC_b25a3.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b25a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b25a3.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -DCHECK_FUNCTION_EXISTS=fopen -rdynamic CMakeFiles/cmTC_b25a3.dir/CheckFunctionExists.c.o -o cmTC_b25a3  -liphlpapi 
+/usr/bin/ld: cannot find -liphlpapi
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_b25a3.dir/build.make:106: cmTC_b25a3] Error 1
+gmake[1]: Leaving directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_b25a3/fast] Error 2
+
+
+
+Determining if the LOCAL_PEERCRED exist failed with the following output:
+Change Dir: /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fded3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fded3.dir/build.make CMakeFiles/cmTC_fded3.dir/build
+gmake[1]: Entering directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fded3.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -std=gnu++11  -o CMakeFiles/cmTC_fded3.dir/CheckSymbolExists.cxx.o -c /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: 'LOCAL_PEERCRED' was not declared in this scope; did you mean 'SO_PEERCRED'?
+    8 |   return ((int*)(&LOCAL_PEERCRED))[argc];
+      |                   ^~~~~~~~~~~~~~
+      |                   SO_PEERCRED
+gmake[1]: *** [CMakeFiles/cmTC_fded3.dir/build.make:85: CMakeFiles/cmTC_fded3.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_fded3/fast] Error 2
+
+
+File /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef LOCAL_PEERCRED
+  return ((int*)(&LOCAL_PEERCRED))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f0e46/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f0e46.dir/build.make CMakeFiles/cmTC_f0e46.dir/build
+gmake[1]: Entering directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0e46.dir/src.c.o
+/usr/bin/cc   -std=gnu11 -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_f0e46.dir/src.c.o -c /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f0e46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0e46.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -DCMAKE_HAVE_LIBC_PTHREAD -rdynamic CMakeFiles/cmTC_f0e46.dir/src.c.o -o cmTC_f0e46 
+/usr/bin/ld: CMakeFiles/cmTC_f0e46.dir/src.c.o: in function `main':
+src.c:(.text+0x2f): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x3b): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x47): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x58): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_f0e46.dir/build.make:106: cmTC_f0e46] Error 1
+gmake[1]: Leaving directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_f0e46/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_25d51/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_25d51.dir/build.make CMakeFiles/cmTC_25d51.dir/build
+gmake[1]: Entering directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25d51.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_25d51.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_25d51
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25d51.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_25d51.dir/CheckFunctionExists.c.o -o cmTC_25d51  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_25d51.dir/build.make:106: cmTC_25d51] Error 1
+gmake[1]: Leaving directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_25d51/fast] Error 2
+
+
+
+Determining if the function gethrtime exists failed with the following output:
+Change Dir: /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e9914/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e9914.dir/build.make CMakeFiles/cmTC_e9914.dir/build
+gmake[1]: Entering directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9914.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp/sys/time.h -std=gnu11 -DCHECK_FUNCTION_EXISTS=gethrtime -o CMakeFiles/cmTC_e9914.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e9914
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9914.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -DCHECK_FUNCTION_EXISTS=gethrtime -rdynamic CMakeFiles/cmTC_e9914.dir/CheckFunctionExists.c.o -o cmTC_e9914 
+/usr/bin/ld: CMakeFiles/cmTC_e9914.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `gethrtime'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_e9914.dir/build.make:106: cmTC_e9914] Error 1
+gmake[1]: Leaving directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_e9914/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_TCP_KEEPALIVE failed with the following compile output:
+Change Dir: /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_85a64/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85a64.dir/build.make CMakeFiles/cmTC_85a64.dir/build
+gmake[1]: Entering directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85a64.dir/src.c.o
+/usr/bin/cc   -std=gnu11 -DZMQ_HAVE_TCP_KEEPALIVE -o CMakeFiles/cmTC_85a64.dir/src.c.o -c /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp/src.c
+/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp/src.c:13:42: error: 'TCP_KEEPALIVE' undeclared (first use in this function); did you mean 'SO_KEEPALIVE'?
+   13 |        ((rc = setsockopt(s, IPPROTO_TCP, TCP_KEEPALIVE,(char*) &opt, sizeof(int))) == -1)
+      |                                          ^~~~~~~~~~~~~
+      |                                          SO_KEEPALIVE
+/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp/src.c:13:42: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_85a64.dir/build.make:85: CMakeFiles/cmTC_85a64.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_85a64/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+
+int main(int argc, char *argv [])
+{
+    int s, rc, opt = 1;
+    return(
+       ((s = socket(PF_INET, SOCK_STREAM, 0)) == -1) ||
+       ((rc = setsockopt(s, SOL_SOCKET, SO_KEEPALIVE,(char*) &opt, sizeof(int))) == -1) ||
+       ((rc = setsockopt(s, IPPROTO_TCP, TCP_KEEPALIVE,(char*) &opt, sizeof(int))) == -1)
+    );
+}
+
+Performing C SOURCE FILE Test ZMQ_HAVE_TIPC failed with the following compile output:
+Change Dir: /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_afb1a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_afb1a.dir/build.make CMakeFiles/cmTC_afb1a.dir/build
+gmake[1]: Entering directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_afb1a.dir/src.c.o
+/usr/bin/cc   -std=gnu11 -DZMQ_HAVE_TIPC -o CMakeFiles/cmTC_afb1a.dir/src.c.o -c /com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_afb1a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afb1a.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -DZMQ_HAVE_TIPC -rdynamic CMakeFiles/cmTC_afb1a.dir/src.c.o -o cmTC_afb1a 
+gmake[1]: Leaving directory '/com.docker.devenvironments.code/build/CMakeFiles/CMakeTmp'
+
+
+...and run output:
+
+Return value: 255
+Source file was:
+
+#include <stdlib.h>
+#include <string.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <sys/socket.h>
+#include <linux/tipc.h>
+
+int main(int argc, char *argv [])
+{
+    struct sockaddr_tipc topsrv;
+    int sd = socket(AF_TIPC, SOCK_SEQPACKET, 0);
+    if (sd == -EAFNOSUPPORT) {
+        return 1;
+    }
+    memset(&topsrv, 0, sizeof(topsrv));
+    topsrv.family = AF_TIPC;
+    topsrv.addrtype = TIPC_ADDR_NAME;
+    topsrv.addr.name.name.type = TIPC_TOP_SRV;
+    topsrv.addr.name.name.instance = TIPC_TOP_SRV;
+    fcntl(sd, F_SETFL, O_NONBLOCK);
+    if (connect(sd, (struct sockaddr *)&topsrv, sizeof(topsrv)) != 0) {
+        if (errno != EINPROGRESS)
+            return -1;
+    }
+}
+
