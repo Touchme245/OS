@@ -130,8 +130,8 @@ int main(int argc, char* argv[]) {
                         send_message(parent_socket, "OK");
                     }
                   //unbind(left_socket, left_id);
-                  // disconnect(parent_socket, left_id);
-                   disconnect(parent_socket,cur_id);
+                 //  disconnect(parent_socket, left_id);
+                 //  disconnect(parent_socket,cur_id);
 
                     
                 }
@@ -143,7 +143,7 @@ int main(int argc, char* argv[]) {
                     }
                        //unbind(right_socket, right_id);
                       // disconnect(parent_socket, right_id);
-                       disconnect(parent_socket, cur_id);
+                      // disconnect(parent_socket, cur_id);
                    
                 
                 }
