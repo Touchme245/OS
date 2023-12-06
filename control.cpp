@@ -54,12 +54,17 @@ int main(){
         }
         else if (cmd == "exec") {
             int dest_id;
-            std::string numbers;
+            // pattern line
+            std::string inputLine;
             std::cin >> dest_id;
-            std::getline(std::cin, numbers);
+            std::string pattern;
+            std::string line;
+            std::cin >> pattern >> line;
+           // std::getline(std::cin, inputLine);
+            // std::cout << inputLine << "\n"; 
 
 
-            send_message(branch, std::to_string(dest_id) + "exec " + numbers);
+            send_message(branch, std::to_string(dest_id) + "exec " + pattern + " " + line);
             std::string reply = receive_message(branch);
             std::cout << reply << std::endl;
             
@@ -85,11 +90,11 @@ int main(){
             }
         }
 
-        else if (cmd == "heartbeat") {
+        else if (cmd == "pingall") {
             std::set<int> available_nodes;
             
                 
-                send_message(branch, std::to_string(parent_id) + " heartbeat");
+                send_message(branch, std::to_string(parent_id) + " pingall");
                 
                 std::string received_message = receive_message(branch);
                 std::istringstream reply(received_message);

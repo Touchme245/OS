@@ -101,22 +101,40 @@ int main(int argc, char* argv[]) {
             }
             else if (cmd == "exec") {
                 int sum = 0;
-                std::string number;
-                while (request >> number) {
-                    sum += std::stoi(number);
+                std::string pattern;
+                std::string line;
+                request >> pattern;
+                request >> line;
+                std::string res = "";
+
+                for (int i =0; i <= line.length() - pattern.length();++i){
+                    for (int j = 0; j < pattern.size(); ++j){
+                         if (line[i + j] != pattern[j]) {
+                            break;
+                         }
+                        if (j == pattern.length() - 1) {
+                            res += " " + std::to_string(i);
+                        }
+                    }
                 }
-                send_message(parent_socket, "OK: " + std::to_string(cur_id) + ": " + std::to_string(sum));
+                if (res.length() == 0){
+                    send_message(parent_socket, "OK: " + std::to_string(cur_id) + ": " + "-1");
+                }
+                else{
+                    send_message(parent_socket, "OK: " + std::to_string(cur_id) + ": " + res);
+                }
+                
             }
 
-            else if (cmd == "heartbeat") {
+            else if (cmd == "pingall") {
                 std::string reply;
                 if (left_id != -1) {
-                    send_message(left_socket, std::to_string(left_id) + " heartbeat");
+                    send_message(left_socket, std::to_string(left_id) + " pingall");
                     std::string msg = receive_message(left_socket);
                     reply += " " + msg;
                 }
                 if (right_id != -1) {
-                    send_message(right_socket, std::to_string(right_id) + " heartbeat");
+                    send_message(right_socket, std::to_string(right_id) + " pingall");
                     std::string msg = receive_message(right_socket);
                     reply += " " + msg;
                 }
