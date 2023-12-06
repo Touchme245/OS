@@ -87,12 +87,14 @@ int main(){
 
         else if (cmd == "heartbeat") {
             std::set<int> available_nodes;
-            
-                
+            int milis;
+            std::cin >> milis;
+                branch.setsockopt(ZMQ_SNDTIMEO, 4 * milis);
                 send_message(branch, std::to_string(parent_id) + " heartbeat");
-                
+               
                 std::string received_message = receive_message(branch);
                 std::istringstream reply(received_message);
+                
                 int node;
                 while(reply >> node) {
                     available_nodes.insert(node);
@@ -108,6 +110,7 @@ int main(){
                 }
                 std::cout << std::endl;
             }
+            branch.setsockopt(ZMQ_SNDTIMEO, 5000);
         }
 
         else if (cmd == "exit") {
