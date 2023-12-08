@@ -28,7 +28,7 @@ ClientData send{"System", "System", "Send"};
 ClientData joinChat{"System", "System", "JoinChat"};
 
 int main(){
-    int size = 2048;
+    int size = sizeof(char) * 280;
     int shm_fd = shm_open("shared_memory", O_CREAT | O_RDWR, 0777);
     if (shm_fd == -1){
         std::cout << "Error with fd\n";
@@ -50,8 +50,8 @@ int main(){
     ClientData* arr = (ClientData*)shm_ptr;
 
    
-    std::cout << arr[0].message << "\n";
-    std::cout << "ВВедите логин" << std::endl;
+    // std::cout << arr[0].message << "\n";
+    std::cout << "Введите логин" << std::endl;
     std::string login;
     std::cin >> login;
     std::cout << "Доступные команды:" << std::endl;
@@ -108,7 +108,7 @@ int main(){
         }
         if (equals(arr[0].message, "Show")){
            char* newMessage = arr[1].message;
-           std::cout << "У вас новое сообщение: " << newMessage << std::endl;
+           std::cout << "У вас новое сообщение от " << newMessage << std::endl;
            arr[0] = send;
 
         }

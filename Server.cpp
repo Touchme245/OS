@@ -14,6 +14,21 @@
 #include <map>
 #include <vector>
 #include "Utils.h"
+#include <pthread.h>
+#include <semaphore.h>
+#include <csignal>
+
+
+sem_t* sem = sem_open("serverSemap", O_CREAT, 0644, 1);
+
+void signalHandler(int signal){
+    if (signal == SIGINT){
+        sem_post(sem);
+        sem_close(sem);
+        sem_unlink("serverSemap");
+        exit(signal);
+    }
+}
 
 //user - msgs to him
 std::map<const std::string,std::vector< std::string >> storage;
@@ -21,8 +36,13 @@ std::map<const std::string,std::vector< std::string >> storage;
 std::map<const std::string,std::vector< std::string >> chats;
 
 int main(){
+    std::signal(SIGINT, signalHandler);
+    if (sem_trywait(sem) == -1){
+        std::cout << "Server has already been started, you cant run it now\n";
+        return 0;
+    }
     std::cout << "Server" << std::endl;
-    int size = 2048;
+    int size = sizeof(char) * 280;
     int shm_fd = shm_open("shared_memory", O_CREAT | O_RDWR, 0777);
     if (shm_fd == -1){
         std::cout << "Error with fd\n";
@@ -72,10 +92,10 @@ int main(){
             
             if (!chats[sReciever].empty()){
                 for (auto elem : chats[sReciever]){
-                    storage[elem].push_back(sMessage);
+                    storage[elem].push_back(sReciever + "/" + sLogin + ": " + sMessage);
                 }
             }
-            storage[sReciever].push_back(sMessage);
+            storage[sReciever].push_back(sLogin + ": " + sMessage);
            // std::cout << storage[sLogin].size() << "\n";
            // std::cout << storage[sReciever].size() << "\n";
            // std::cout << sLogin << " " << sReciever << "\n";
@@ -126,6 +146,9 @@ int main(){
     
     munmap(shm_ptr, size);
     close(shm_fd);
+    sem_post(sem);
+    sem_close(sem);
+    sem_unlink("serverSemap");
     return 0;
     
     
