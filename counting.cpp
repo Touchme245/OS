@@ -125,32 +125,11 @@ int main(int argc, char* argv[]) {
             else if (cmd == "kill") {
                 if (left_id != -1) {
                     send_message(left_socket, std::to_string(left_id) + " kill");
-                    std::string msg = receive_message(left_socket);
-                    if (msg == "OK") {
-                        send_message(parent_socket, "OK");
-                    }
-                  //unbind(left_socket, left_id);
-                 //  disconnect(parent_socket, left_id);
-                 //  disconnect(parent_socket,cur_id);
-
-                    
                 }
                 if (right_id != -1) {
-                    send_message(right_socket, std::to_string(right_id) + " kill");
-                    std::string msg = receive_message(right_socket);
-                    if (msg == "OK") {
-                        send_message(parent_socket, "OK");
-                    }
-                       //unbind(right_socket, right_id);
-                      // disconnect(parent_socket, right_id);
-                      // disconnect(parent_socket, cur_id);
-                   
-                
+                    send_message(right_socket, std::to_string(right_id) + " kill"); 
                 }
-                send_message(parent_socket, "OK");
-                unbind(parent_socket, cur_id);
-                disconnect(parent_socket, cur_id);
-               
+                send_message(parent_socket, "OK");  
                 exit(0);
                 
             }

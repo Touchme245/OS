@@ -4,7 +4,7 @@
 #include <sys/wait.h>
 #include <string>
 #include <fcntl.h>
-// Структура для представления узла дерева
+
 struct Node {
     int data;
     Node* left;
@@ -28,7 +28,7 @@ int find(Node * root, int id){
     }
 }
 
-// Функция для создания нового узла
+
 Node* createNode(int data) {
     Node* newNode = new Node();
     newNode->data = data;
@@ -38,7 +38,7 @@ Node* createNode(int data) {
     return newNode;
 }
 
-// Функция для получения высоты узла
+
 int getHeight(Node* node) {
     if (node == nullptr) {
         return 0;
@@ -46,7 +46,7 @@ int getHeight(Node* node) {
     return node->height;
 }
 
-// Функция для получения баланса узла
+
 int getBalance(Node* node) {
     if (node == nullptr) {
         return 0;
@@ -54,14 +54,14 @@ int getBalance(Node* node) {
     return getHeight(node->left) - getHeight(node->right);
 }
 
-// Функция для обновления высоты узла
+
 void updateHeight(Node* node) {
     int leftHeight = getHeight(node->left);
     int rightHeight = getHeight(node->right);
     node->height = std::max(leftHeight, rightHeight) + 1;
 }
 
-// Функция для поворота вправо
+
 Node* rotateRight(Node* y) {
     Node* x = y->left;
     Node* T2 = x->right;
@@ -75,7 +75,7 @@ Node* rotateRight(Node* y) {
     return x;
 }
 
-// Функция для поворота влево
+
 Node* rotateLeft(Node* x) {
     Node* y = x->right;
     Node* T2 = y->left;
@@ -89,7 +89,7 @@ Node* rotateLeft(Node* x) {
     return y;
 }
 
-// Функция для вставки нового узла в дерево
+
 void insertNode(Node* root, int id){
     if (root == NULL){
         root = createNode(id);
@@ -149,7 +149,7 @@ void insertNode(Node* root, int id){
     // return root;
 //}
 
-// Функция для вывода дерева в порядке возрастания
+
 void inOrderTraversal(Node* root) {
     if (root != nullptr) {
         inOrderTraversal(root->left);
