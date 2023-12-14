@@ -6,11 +6,16 @@
 
 
 int main(){
-    Node* root_network = createNode(1);
-    root_network->data = 1;
+    
     zmq::context_t context; 
-    int parent_id = 1;
+    int parent_id;
+
     // создание мастер ноды
+    std::string firstCommand;
+    std::cin >> firstCommand;
+    std::cin >> parent_id;
+    Node* root_network = createNode(parent_id);
+    root_network->data = parent_id;
     pid_t pid = fork();
         if (pid < 0) {
             perror("Can't create new process");
@@ -119,15 +124,15 @@ int main(){
 
                 else if (cmd == "exit") {
                 
-                    int first_node_id = 1;
-                    send_message(branch, std::to_string(first_node_id) + "kill");
+                    
+                    send_message(branch, std::to_string(parent_id) + "kill");
                         
                     std::string reply = receive_message(branch);
                     if (reply != "OK") {
                         std::cout << reply << std::endl;
                     }
                     else {
-                        unbind(branch, first_node_id);
+                        unbind(branch, parent_id);
                     }
                     
                     exit(0);
