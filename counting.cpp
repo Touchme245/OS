@@ -102,10 +102,22 @@ int main(int argc, char* argv[]) {
             else if (cmd == "exec") {
                 int sum = 0;
                 std::string number;
+                int health = 1;
                 while (request >> number) {
-                    sum += std::stoi(number);
+                    try{
+                        sum += std::stoi(number);
+                    }
+                    catch(...){
+                        health = 0;
+                        send_message(parent_socket, std::to_string(cur_id) + ": Invalid argument");
+                        break;
+                    }
+                    
                 }
-                send_message(parent_socket, "OK: " + std::to_string(cur_id) + ": " + std::to_string(sum));
+                if (health){
+                     send_message(parent_socket, "OK: " + std::to_string(cur_id) + ": " + std::to_string(sum));
+                }
+               
             }
 
             else if (cmd == "heartbeat") {
