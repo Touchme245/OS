@@ -98,7 +98,11 @@ int main(){
                     std::set<int> available_nodes;
                     int milis;
                     std::cin >> milis;
-                        branch.setsockopt(ZMQ_SNDTIMEO, 4 * milis);
+                        if (milis < 0){
+                            milis *= -1;
+                            
+                        }
+                        branch.setsockopt(ZMQ_RCVTIMEO, 4 * milis);
                         send_message(branch, std::to_string(parent_id) + " heartbeat");
                     
                         std::string received_message = receive_message(branch);
